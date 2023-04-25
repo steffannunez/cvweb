@@ -5,8 +5,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-    <p>aqui deberia poner mi foto</p>
+    <img alt="profile pic" class="logo" src="@/assets/pp.jpeg"  height="350" />
+    
     <div class="wrapper">
       <HelloWorld msg="Brandon Estefan Núñez Maturana" />
 
@@ -30,6 +30,8 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  border-radius: 1rem;
+  
 }
 
 nav {

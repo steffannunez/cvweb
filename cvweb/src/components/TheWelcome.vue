@@ -34,15 +34,14 @@ import SupportIcon from './icons/IconSupport.vue'
       <EcosystemIcon />
     </template>
     <template #heading>Skills</template>
-
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    <h3  class="miniTitle">Programming Languages:</h3>
+    <p> Java, Python, JavaScript, C#, Dart, Kotlin, Swift</p>
+    <h3 class="miniTitle">Web Development:</h3>
+    <p> HTML, CSS, SCSS, Vue.js, JavaScript, TypeScript, Node.js</p>
+    <h3 class="miniTitle">Database Management:</h3>
+    <p> PostgreSQL, MongoDB, MySQL, GoogleCloud</p>
+    <h3 class="miniTitle">Software Development Tools:</h3>
+    <p> Git, Eclipse, Visual Studio, IntelliJ IDEA, Android Studio, Xcode</p>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -65,3 +64,16 @@ import SupportIcon from './icons/IconSupport.vue'
     <p></p>
   </WelcomeItem>
 </template>
+<style>
+.miniTitle{
+  color: rgb(238, 238, 238);
+}
+a{
+  color: #008ab4;
+}
+a:hover{
+  background: transparent;
+  color: #0ec7ff;
+   
+}
+</style>
