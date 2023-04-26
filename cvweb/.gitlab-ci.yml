@@ -11,4 +11,3 @@ test:
   stage: test
   script:
     echo "Testeando los metodos..."
-    
